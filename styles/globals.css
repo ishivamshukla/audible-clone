@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+@layer components {
+  .button {
+    @apply px-6 py-2 my-1 mt-2 font-medium transition duration-500 ease-in-out transform rounded-md bg-darkYellow hover:bg-lightYellow hover:-translate-y-1 hover:scale-110 focus:outline-none;
+  }
+  body {
+    @apply dark:bg-gray-900;
+  }
+  .padding{
+    padding: 9px;
+  }
+  .width800{
+    width: 800px;
+  }
+}
+
+.carousel.carousel-slider {
+  width: 99.5vw !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f1f1f1 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #dbd6d6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8a8a8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.orange-shadow:hover {
+  box-shadow: 0 10px 20px 0 rgb(255 160 0 / 29%);
+}
+
+.negative-z {
+  z-index: -1 !important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hidescroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidescroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
