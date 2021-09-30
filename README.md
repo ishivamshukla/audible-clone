@@ -44,10 +44,5 @@ npm run dev
 
 ## Creating a PR
 
-Checkout [this](https://medium.com/weekly-webtips/how-to-contribute-to-an-open-source-project-and-make-a-pr-cc92f6c9831d) article to make a PR
-
-## Configuring Clerk
-
-Checkout [this](https://medium.com/geekculture/mastering-clerk-authentication-with-the-next-js-standard-setup-c66b97bac724) article to configure Clerk
 
 
