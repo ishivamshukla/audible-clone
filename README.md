@@ -42,7 +42,3 @@ and if you using npm run
 npm run dev
 ```
 
-## Creating a PR
-
-
-
